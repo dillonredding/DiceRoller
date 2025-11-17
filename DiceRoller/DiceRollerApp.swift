@@ -5,6 +5,7 @@
 //  Created by Dillon Redding on 11/13/25.
 //
 
+import SwiftData
 import SwiftUI
 
 @main
@@ -13,5 +14,6 @@ struct DiceRollerApp: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: Roll.self)
     }
 }
