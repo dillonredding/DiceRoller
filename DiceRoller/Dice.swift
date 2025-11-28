@@ -15,7 +15,7 @@ extension Modifier {
     }
 }
 
-struct Dice: Codable, CustomStringConvertible {
+struct Dice: nonisolated Codable, CustomStringConvertible {
     var count: Int
     var sides: Int
     var modifier: Modifier = 0
