@@ -31,7 +31,7 @@ struct ContentView: View {
                 Spacer()
 
                 Text(result, format: .number)
-                    .font(.system(size: 128))
+                    .font(.system(size: 128).bold())
                     .foregroundStyle(flicks.isEmpty ? .primary : .secondary)
 
                 Spacer()
